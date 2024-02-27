@@ -46,10 +46,13 @@
     }
     a {
       color: #d499b6;
-    }   
+    }
+     h1{
+      display: none;
+    }
   </style>
   <body>
-    <a href="lafeng01.com">哈哈</a>
+    
     <div class="box">
       <h2>永远令人陶醉的王朝</h2>
       <p>
