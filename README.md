@@ -75,7 +75,7 @@
       <p style="text-align: right">lafeng</p>
       <p style="text-align: right">2024年2月26日</p>
       <div style="text-align: center">
-        <a href="laleng.github.io" style="text-decoration: none">友情链接</a>
+        <a href="laleng01.github.io" style="text-decoration: none">友情链接</a>
       </div>
     </div>
   </body>
