@@ -1,5 +1,5 @@
 
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
@@ -102,14 +102,6 @@
         "
         class="flex"
       >
-        <img
-          src="fhgc.jpg"
-          width="40px"
-          height="40px"
-          alt="图片"
-          title="我拍的"
-        />
-
         <div style="margin-left: 10px"></div>
       </div>
       <!--导航栏-->
@@ -142,25 +134,18 @@
           <!--数据区-->
           <div class="flex shujuqu">
             <!--数据块-->
+            <div
+              style="height: 100px"
+              class="shuju flex1 baise mgr8 yinying"
+            ></div>
             <div style="height: 100px" class="shuju flex1 baise mgr8 yinying">
-              <img src="fh.jpg" alt="凤凰古城" height="100px" width="150px" />
-            </div>
-            <div style="height: 100px" class="shuju flex1 baise mgr8 yinying">
-              <img src="mj.jpg" alt="图片" height="100px" width="150px" />
               <p></p>
             </div>
-            <div style="height: 100px" class="shuju flex1 baise mgr8 yinying">
-              <img
-                src="fhgc.jpg"
-                alt="美景"
-                srcset="fhgc.jpg"
-                height="100px"
-                width="150px"
-              />
-            </div>
-            <div style="height: 100px" class="shuju flex1 baise yinying">
-              <img src="fc.jpg" alt="风车" height="100px" width="150px" />
-            </div>
+            <div
+              style="height: 100px"
+              class="shuju flex1 baise mgr8 yinying"
+            ></div>
+            <div style="height: 100px" class="shuju flex1 baise yinying"></div>
           </div>
           <!--列表区-->
           <div class="flex column">
@@ -183,6 +168,4 @@
       </div>
     </div>
   </body>
-</html>
-
 </html>
