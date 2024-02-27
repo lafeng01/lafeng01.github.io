@@ -7,8 +7,6 @@
     <title>520</title>
   </head>
   <style>
-    * {
-    }
     body {
       margin: 0;
       height: 100vh;
