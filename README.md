@@ -2,11 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>520</title>
+    <title>何杜的网页</title>
   </head>
   <style>
-    * {
-    }
     body {
       margin: 0;
       height: 100vh;
@@ -41,6 +39,13 @@
     }
     h2 {
       text-align: center;
+      color: #a6a611;
+    }
+    p {
+      color: #a6a611;
+    }
+    a {
+      color: #d499b6;
     }
   </style>
   <body>
@@ -71,6 +76,9 @@
 
       <p style="text-align: right">lafeng</p>
       <p style="text-align: right">2024年2月26日</p>
+      <div style="text-align: center">
+        <a href="laleng.github.io" style="text-decoration: none">友情链接</a>
+      </div>
     </div>
   </body>
 </html>
