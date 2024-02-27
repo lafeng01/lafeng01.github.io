@@ -1,52 +1,12 @@
-<html lang="zh-CN"><head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>何杜的个人网站</title>
-<meta name="generator" content="Jekyll v3.9.5">
-<meta property="og:title" content="lafeng01">
-<meta property="og:locale" content="en_US">
-<link rel="canonical" href="https://lafeng01.github.io/">
-<meta property="og:url" content="https://lafeng01.github.io/">
-<meta property="og:site_name" content="lafeng01">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="hwd">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"lafeng01","name":"lafeng01","url":"https://lafeng01.github.io/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <style class="anchorjs"></style><link rel="stylesheet" href="/assets/css/style.css?v=c36b23ffbf8edc3c2e4d55b51e66d57ec82f0431">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>520</title>
   </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      
-      
-
-      
-
-
-  
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>何杜的个人网站</title>
-  
   <style>
-
+    * {
+    }
     body {
       margin: 0;
       height: 100vh;
@@ -83,9 +43,9 @@
       text-align: center;
     }
   </style>
-  
+  <body>
     <div class="box">
-      <h2 id="永远令人陶醉的王朝">永远令人陶醉的王朝<a class="anchorjs-link " href="#永远令人陶醉的王朝" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+      <h2>永远令人陶醉的王朝</h2>
       <p>
         风若遥远的回音，追着梦的翅膀。在亘古不变的神话里，寻找一个金碧辉煌的王朝
         她是史册里深藏的墨迹，带给人无法言说的美丽和忧愁。留给世人难以忘却的厚重和大气
@@ -112,14 +72,5 @@
       <p style="text-align: right">lafeng</p>
       <p style="text-align: right">2024年2月26日</p>
     </div>
-  
-
-
-
-      
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  
-
-</body></html>
+  </body>
+</html>
