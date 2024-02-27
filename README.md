@@ -1,10 +1,10 @@
-<html lang="en-US"><head>
+<html lang="zh-CN"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>lafeng01</title>
+<title>何杜的个人网站</title>
 <meta name="generator" content="Jekyll v3.9.5">
 <meta property="og:title" content="lafeng01">
 <meta property="og:locale" content="en_US">
@@ -43,11 +43,10 @@
   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>520</title>
+    <title>何杜的个人网站</title>
   
   <style>
-    * {
-    }
+
     body {
       margin: 0;
       height: 100vh;
