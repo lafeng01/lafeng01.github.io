@@ -1,1 +1,141 @@
 
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #000;
+}
+h1 {
+  color: #eee;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  line-height: 1.4;
+  color: #eee;
+}
+li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #eee;
+}
+
+.logo {
+  color: #eee;
+  cursor: default;
+}
+
+.nav {
+  display: flex;
+}
+.align {
+  align-items: center;
+}
+.p1 {
+  color: #ffff;
+  font-size: 1rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  font-family: "思源黑体";
+  cursor: default;
+}
+
+/* 头部 */
+
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.bgimg {
+  background: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Crew8_sunset_022624_DSC_3504_desktop_8eda4876a4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: 100%;
+  padding-bottom: 43.15%;
+}
+.img1 {
+  background: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Merah_Putih_2_eastgrassh_IMG_9153_f311879c2a.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  width: 100%;
+  padding-bottom: 46.15%;
+}
+.img2 {
+  background: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_40_desktop2_1b4543b140.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  width: 100%;
+  padding-bottom: 46.15%;
+}
+/*  */
+.img3 {
+  background: url(https://copyright.bdstatic.com/vcg/creative/3ff8b76322ba6dfacd21d3dda7f5e912.jpg@h_1280)
+    no-repeat;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% auto;
+  background-position: center;
+  padding-bottom: 46.15%;
+}
+.atop {
+  text-align: center;
+  cursor: default;
+}
+
+.bgimg .img1 .img2 .img3 {
+  width: 100%;
+}
+li a:hover {
+  color: #feac5e;
+}
+.flex3 {
+}
+
+@media screen and (max-width: 600px) {
+  body {
+  }
+  .flex3 {
+    display: flex;
+  }
+  h1 {
+    font-size: 25px;
+    margin-left: 17px;
+  }
+  .nav {
+    display: block;
+  }
+  p {
+    margin-right: 2px;
+  }
+
+  .bgimg {
+    padding-bottom: 23%;
+  }
+  .p1 {
+    margin: 0;
+    padding: 1px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .flex3 {
+    text-align: left;
+  }
+  .p1 {
+    margin: 0;
+    padding: 1px;
+  }
+  .bgimg {
+    padding-bottom: 17%;
+  }
+}
