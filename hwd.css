@@ -1,141 +1,408 @@
-
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  /* border: 1px solid teal; */
 }
-body {
-  background-color: #000;
+/* 通用 */
+.container {
+  width: 70%;
+  padding: 0 px;
+  margin: auto;
 }
-h1 {
-  color: #eee;
+
+.flex {
+  display: flex;
 }
+.flex-x-center {
+  justify-content: center;
+  display: flex;
+}
+.flex-y-center {
+  align-items: center;
+  display: flex;
+}
+.content-around {
+  justify-content: space-around;
+  display: flex;
+}
+.content-between {
+  justify-content: space-between;
+  display: flex;
+}
+.text-center {
+  text-align: center;
+}
+.bgwhite {
+  background-color: white;
+}
+.bggray {
+  background-color: #eee;
+}
+.bgblack {
+  background-color: rgba(87, 201, 171, 0.537);
+}
+.font-black {
+  color: black;
+}
+.font-white {
+  color: #fff;
+}
+.font-gray {
+  color: #666;
+}
+.shadow {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+/* 标签 */
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
-  line-height: 1.4;
-  color: #eee;
 }
-li {
-  margin-left: 2rem;
-  margin-right: 2rem;
-  color: #eee;
-}
-
-.logo {
-  color: #eee;
-  cursor: default;
-}
-
+/* 导航 */
 .nav {
-  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  font-weight: bold;
 }
-.align {
-  align-items: center;
+.nav ul {
+  margin-right: 55px;
+  margin-left: 55px;
 }
-.p1 {
-  color: #ffff;
-  font-size: 1rem;
-  margin: 0.2rem;
-  padding: 0.5rem;
-  font-family: "思源黑体";
-  cursor: default;
+.nav img {
+  width: 33px;
+  height: 33px;
 }
-
+.nav li {
+  margin-right: 8px;
+  margin-left: 8px;
+  line-height: 33px;
+}
+.nav .logo {
+  font-weight: bold;
+}
 /* 头部 */
+.header .bgimg {
+  width: 100%;
+  height: 520px;
+  background-size: 100% 100%;
+}
+.header h1 {
+  margin-bottom: 22px;
+  font-weight: normal;
+  font-size: 22px;
+}
 
-.flex {
-  display: flex;
+/* 盒子 */
+.header-box {
+  width: 25%;
+  height: 250px;
+}
+.header-card {
+  background-color: #fff;
+  padding: 50px;
+}
+.header-box h1 {
+  font-size: 22px;
+  font-weight: normal;
 }
 
-.flex1 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-}
-.bgimg {
-  background: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Crew8_sunset_022624_DSC_3504_desktop_8eda4876a4.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center;
-  width: 100%;
-  padding-bottom: 43.15%;
-}
-.img1 {
-  background: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Merah_Putih_2_eastgrassh_IMG_9153_f311879c2a.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% auto;
-  width: 100%;
-  padding-bottom: 46.15%;
-}
-.img2 {
-  background: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_40_desktop2_1b4543b140.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% auto;
-  width: 100%;
-  padding-bottom: 46.15%;
-}
-/*  */
-.img3 {
-  background: url(https://copyright.bdstatic.com/vcg/creative/3ff8b76322ba6dfacd21d3dda7f5e912.jpg@h_1280)
-    no-repeat;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: 100% auto;
-  background-position: center;
-  padding-bottom: 46.15%;
-}
-.atop {
+/* 思维导图 */
+.waps-header {
+  margin-bottom: 55px;
   text-align: center;
-  cursor: default;
 }
-
-.bgimg .img1 .img2 .img3 {
+.waps-header h1 {
+  font-weight: normal;
+}
+.waps {
+  background-size: 100% 100%;
   width: 100%;
+  height: 500px;
 }
-li a:hover {
-  color: #feac5e;
+/* 极简接入 */
+.waps-main {
+  margin-bottom: 88px;
+  margin-top: 88px;
 }
-.flex3 {
+.waps-main p {
+  background-color: rgb(229, 246, 253);
+  margin-bottom: 17px;
+  margin-top: 17px;
+  padding: 5px;
+}
+/* 示例应用 */
+.apphub h1 {
+  margin-bottom: 22px;
+}
+.apphub-title {
+  margin-bottom: 55px;
+}
+.apphub .pic {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 111px;
+}
+.apphub-list {
+  margin-bottom: 55px;
+}
+.apphub-item div {
+  margin: 1px;
+  background-color: #fff;
+  padding: 11px;
+}
+.apphub-item h2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+.apphub-item p {
+  color: #666;
+  font-size: 12px;
 }
 
-@media screen and (max-width: 600px) {
-  body {
+/* 低代码编辑自定义 */
+.footer-img {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 520px;
+}
+.footer h1 {
+  margin-top: 55px;
+  margin-bottom: 22px;
+  font-weight: normal;
+}
+.footer h2 {
+  font-size: 33px;
+  font-weight: normal;
+}
+.footer h3 {
+  font-weight: normal;
+}
+/* 应用数据协作 */
+.app h2 {
+  margin-top: 88px;
+  margin-bottom: 33px;
+}
+.footer-item {
+  margin-bottom: 55px;
+}
+.footer-box {
+  width: 25%;
+  height: 200px;
+}
+.footer-box p {
+  line-height: 30px;
+}
+/* 核心特性 */
+.footer-card {
+  margin-bottom: 88px;
+}
+.card-list {
+  margin-left: 55px;
+  margin-right: 55px;
+  padding-bottom: 33px;
+  margin-top: 33px;
+}
+.card-list p {
+  line-height: 33px;
+}
+.card-box {
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+/* 定价 */
+.box-item {
+  width: 2500px;
+  height: 333px;
+  margin-top: 55px;
+}
+.box-item1 {
+  margin-right: 17px;
+}
+.box-item2 {
+  margin-right: 17px;
+}
+#dingjia {
+  font-size: 33px;
+}
+.footer h4 {
+  font-size: 22px;
+  margin-bottom: 22px;
+  margin-top: 55px;
+}
+/* 合作伙伴 */
+.friend {
+  margin-top: 88px;
+}
+.friend h1 {
+  margin-bottom: 20px;
+}
+.friend img {
+  width: 5%;
+  height: 200px;
+}
+.friend-logo {
+  margin-bottom: -100px;
+}
+/* 关于 */
+.about-box {
+  padding-left: 122px;
+  padding-top: 55px;
+  padding-bottom: 33px;
+}
+.about p {
+  line-height: 45px;
+}
+.about h1 {
+  margin-bottom: 33px;
+}
+/* 开始使用 */
+.start h1 {
+  margin-top: 55px;
+  margin-bottom: 66px;
+}
+.start p {
+  margin-bottom: 88px;
+}
+.start a {
+  border: 1px solid #2196f3;
+  border-radius: 3px;
+  margin-right: 11px;
+  margin-left: 11px;
+  padding: 5px;
+}
+#lianxi {
+  background-color: #2196f3;
+}
+/* 底部 */
+.below {
+  background-color: #f3f5f7;
+}
+.below .container {
+  padding-top: 26px;
+}
+.below img {
+  height: 100px;
+  width: 12%;
+}
+.below-img {
+  margin-top: 55px;
+  margin-bottom: 33px;
+}
+.below h3 {
+  margin-bottom: 16px;
+}
+.below p {
+  line-height: 33px;
+}
+/* 伪类 */
+.start a:hover {
+  background-color: #2196f3;
+}
+#lianxi:hover {
+  filter: brightness(0.75);
+}
+.nav li:hover {
+  color: #2196f3;
+}
+@media screen and (max-width: 666px) {
+  /* 通用 */
+  .container {
+    width: 100%;
   }
-  .flex3 {
-    display: flex;
-  }
-  h1 {
-    font-size: 25px;
-    margin-left: 17px;
-  }
+
+  /* 导航 */
   .nav {
-    display: block;
+    width: 100%;
+    font-size: 9px;
   }
-  p {
-    margin-right: 2px;
+  .nav ul {
+    margin-right: 5px;
+    margin-left: 5px;
   }
 
-  .bgimg {
-    padding-bottom: 23%;
+  .nav li {
+    margin-right: 8px;
+    margin-left: 8px;
+    line-height: 33px;
   }
-  .p1 {
-    margin: 0;
-    padding: 1px;
+
+  /* 盒子 */
+  .header-box {
+    width: 25%;
+    height: 250px;
   }
-}
-@media screen and (max-width: 320px) {
-  .flex3 {
-    text-align: left;
+  .header-card {
+    background-color: #fff;
+    padding: 5px;
   }
-  .p1 {
-    margin: 0;
-    padding: 1px;
+  .header-box h1 {
+    font-size: 22px;
+    font-weight: normal;
   }
-  .bgimg {
-    padding-bottom: 17%;
+
+  /* 图 */
+
+  .waps {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+  }
+  /* 核心特性 */
+  .footer-card {
+    margin-bottom: 8px;
+  }
+  .card-list {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 3px;
+    margin-top: 3px;
+  }
+  .card-list p {
+    line-height: 33px;
+  }
+  .card-box {
+    margin-bottom: 55px;
+    margin-top: 55px;
+  }
+
+  /* 合作伙伴 */
+
+  .friend h1 {
+    margin-bottom: 20px;
+  }
+  .friend img {
+    width: 20%;
+  }
+
+  /* 关于 */
+  .about-box {
+    padding-left: 12px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+
+  /* 开始使用 */
+  .start h1 {
+    margin-bottom: 55px;
+  }
+
+  /* 底部 */
+
+  .below .container {
+    padding-top: 66px;
+  }
+  .below img {
+    width: 50%;
+  }
+  .below-img {
+    margin-bottom: 55px;
+  }
+  .below h3 {
+    margin-bottom: 22px;
   }
 }
