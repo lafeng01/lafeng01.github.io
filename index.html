@@ -1,531 +1,365 @@
 <!DOCTYPE html>
-<html lang="cn">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>space-hodux</title>
+    <meta name="description" content="欢迎来到何杜的网站，这是一个关于宇宙探索的个人网站。探索星空的奥秘，尽在hedux.github.io。" />
+    <meta name="keywords" content=" 网站, 星空, 探索, 宇宙, 个人网站" />
+    <meta name="author" content="落枫 黄昏下痴望你 何杜 听海风吹过 江忍" />
+    <title>Document</title>
+    <link rel="stylesheet" href="often.css" />
     <link rel="stylesheet" href="hwd.css" />
+    <script src="./js/wangzhan2.0.js"></script>
   </head>
   <body>
     <!-- 导航 -->
-    <nav class="bgwhite flex-y-center content-between nav">
-      <ul class="flex">
-        <img src="https://www.baasapi.com/image/site/slogo.svg" />
-        <li class="logo">Hedu X</li>
-        <li>文档</li>
-        <li>咨询服务</li>
-        <li>定价</li>
-        <li>博客</li>
-        <li>更多</li>
-      </ul>
-      <ul class="flex">
-        <li>控制台</li>
-        <li>中文</li>
-      </ul>
+    <nav>
+      <div class="flex-space-around nav-item flex-y-center text-center container phone-height">
+        <ul class="flex">
+          <li id="home" class="nav-list">
+            <a class="ft-color-333" id="home" href="">网站首页</a>
+          </li>
+          <li id="about" class="nav-list flex-x-center">
+            <a href="" class="ft-color-333">关于我们</a>
+            <ul class="nav-2">
+              <li class="nav-2-border"></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航1</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航2</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航3</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航4</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航5</a></li>
+            </ul>
+          </li>
+          <li id="news" class="nav-list flex-x-center">
+            <a href="">新闻资讯</a>
+            <ul class="nav-2">
+              <li class="nav-2-border"></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航1</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航2</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航3</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航4</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航5</a></li>
+            </ul>
+          </li>
+          <li id="business" class="nav-list flex-x-center">
+            <a href="">主营业务</a>
+            <ul class="nav-2">
+              <li class="nav-2-border"></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航1</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航2</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航3</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航4</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航5</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav-phone">
+          <div id="logo-header" class="flex-y-center">
+            <a href="https://hedux.github.io">
+              <img src="../img/nav_logo.png " />
+            </a>
+          </div>
+          <div id="icon-header" class="icon-header">
+            <svg t="1710913361256" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1004" width="66" height="66">
+              <path
+                d="M838.6 484.7H578.5c-22.5 0-40.7-18.3-40.7-40.7V183.9c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7V444c0 22.5-18.2 40.7-40.7 40.7zM578.5 170.8c-7.3 0-13.2 5.9-13.2 13.2v260c0 7.3 5.9 13.2 13.2 13.2h260.1c7.3 0 13.2-5.9 13.2-13.2V183.9c0-7.3-5.9-13.2-13.2-13.2H578.5zM838.6 880.4H578.5c-22.5 0-40.7-18.3-40.7-40.7V579.6c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7v260.1c0 22.5-18.2 40.7-40.7 40.7zM578.5 566.5c-7.3 0-13.2 5.9-13.2 13.2v260.1c0 7.2 5.9 13.1 13.2 13.1h260.1c7.3 0 13.2-5.9 13.2-13.1V579.6c0-7.3-5.9-13.2-13.2-13.2H578.5zM444.1 484.7H184c-22.5 0-40.7-18.3-40.7-40.7V183.9c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7V444c0 22.5-18.3 40.7-40.7 40.7zM184 170.8c-7.3 0-13.2 5.9-13.2 13.2v260c0 7.3 5.9 13.2 13.2 13.2h260.1c7.3 0 13.2-5.9 13.2-13.2V183.9c0-7.3-5.9-13.2-13.2-13.2H184zM444.1 880.4H184c-22.5 0-40.7-18.3-40.7-40.7V579.6c0-22.5 18.3-40.7 40.7-40.7h260.1c22.5 0 40.7 18.3 40.7 40.7v260.1c0 22.5-18.3 40.7-40.7 40.7zM184 566.5c-7.3 0-13.2 5.9-13.2 13.2v260.1c0 7.2 5.9 13.1 13.2 13.1h260.1c7.3 0 13.2-5.9 13.2-13.1V579.6c0-7.3-5.9-13.2-13.2-13.2H184z"
+                fill="#3259CE"
+                p-id="1005"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <ul class="flex">
+          <li id="case" class="nav-list"><a class="ft-color-333" href="">经典案例</a></li>
+          <li id="industry" class="nav-list flex-x-center">
+            <a href="">产业板块</a>
+            <ul class="nav-2">
+              <li class="nav-2-border"></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航1</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航2</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航3</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航4</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航5</a></li>
+            </ul>
+          </li>
+          <li id="resources" class="nav-list flex-x-center">
+            <a href="">人力资源</a>
+            <ul class="nav-2">
+              <li class="nav-2-border"></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航1</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航2</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航3</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航4</a></li>
+              <li class="list-2"><a href="https://www.hedux.github.">二级导航5</a></li>
+            </ul>
+          </li>
+          <li id="contact" class="nav-list">
+            <a href="">联系我们</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- 头部 -->
-    <header class="header">
-      <div
-        class="flex-y-center flex-x-center bgimg"
-        style="
-          background-image: url(https://img1.mydrivers.com/img/20230728/803bb8af-189a-4712-9518-fe979c03bbf9.png);
-        "
-      >
-        <div class="text-center font-white">
-          <h1>hedux</h1>
-          <p>加入我们一起探索未知的浩瀚宇宙</p>
+    <header>
+      <div id="header" class="header">
+        <!-- 背景图 -->
+        <div class="header-bgimg">
+          <div class="header-pic flex-x-center flex-y-center" style="background-image: url(../img/about_banner.jpg)">
+            <div class="text-center">
+              <h1>董事长辞职</h1>
+              <h2>CHAIRMAN RESIGNS</h2>
+              <div class="flex-x-center">
+                <div class="header-border" style="border: 2px solid #fff"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>
+    <!-- 主体 -->
+    <main>
+      <!-- 主体导航 -->
+      <ul class="flex-space-around main-nav">
+        <li class="border-right border-bottom lailai"><a href="https://hedux.github.io/">赖赖</a></li>
+        <li class="border-right border-bottom bibi"><a href="https://hedux.github.io/">哔哔</a></li>
+        <li class="border-right border-bottom home"><a href="https://hedux.github.io/"> Home</a></li>
+        <li class="border-right border-bottom about"><a href="https://hedux.github.io/"> About </a></li>
+        <li class="border-right border-bottom contact"><a href="https://hedux.github.io/">Contact </a></li>
+        <li class="border-bottom optional"><a href=""> Optional</a></li>
+      </ul>
 
-    <!-- 盒子 -->
-    <div class="bggray">
-      <!-- 灰色背景 -->
-      <div class="container">
-        <div class="flex text-center">
-          <div class="header-box flex-y-center flex-x-center">
-            <div class="header-card shadow">
-              <h1>无需后端</h1>
-              <p>开发网站、APP、软件等</p>
-              <p>只需前端就能完成；数据</p>
-              <p>可私有</p>
-            </div>
-          </div>
-          <div class="header-box flex-y-center flex-x-center">
-            <div class="header-card shadow">
-              <h1>无需后端</h1>
-              <p>开发网站、APP、软件等</p>
-              <p>只需前端就能完成；数据</p>
-              <p>可私有</p>
-            </div>
-          </div>
-          <div class="header-box flex-y-center flex-x-center">
-            <div class="header-card shadow">
-              <h1>无需后端</h1>
-              <p>开发网站、APP、软件等</p>
-              <p>只需前端就能完成；数据</p>
-              <p>可私有</p>
-            </div>
-          </div>
-          <div class="header-box flex-y-center flex-x-center">
-            <div class="header-card shadow">
-              <h1>无需后端</h1>
-              <p>开发网站、APP、软件等</p>
-              <p>只需前端就能完成；数据</p>
-              <p>可私有</p>
-            </div>
-          </div>
-        </div>
-        <!-- 思维导图 -->
-        <div class="waps-header">
-          <h1>后端 All in One</h1>
-          <p>极简使用，一键获得企业级架构和上百种常见应用API</p>
-        </div>
-        <div
-          class="waps"
-          style="
-            background-image: url(https://img1.mydrivers.com/img/20201207/844c10422f4d475296220c000906f39e.jpg);
-          "
-        ></div>
-
-        <div class="waps-main">
-          <h1 class="text-center">极简接入</h1>
-          <p>
-            1. 登录到控制台创建环境、环境密匙。到应用中心安装 “HelloWorld”
-            应用并查看API文档
-          </p>
-          <p>
-            2.
-            安装示例应用后使用常用的API调试工具请求或在浏览器按F12打开DevTools
-            console 粘贴以下代码运行：
-          </p>
-          <pre class="bgblack">
- // 将以下[]及[]内的字段替换为你自己的信息如
- fetch('https://[你的环境地域].baasapi.com/', {
-   headers: {
-     envid: '[你的环境ID]',
-     keyid: '[你的环境密匙ID]',
-   },
-   method: 'POST',
-   body: JSON.stringify({
-     appId: 'hello', // 应用ID
-     api: 'hi', // 应用API
-     version: 'latest', // API版本
-     args: {}, // API参数
-   }),
- })
- .then((res) => res.json())
- .then((data) => console.log(data));
- // 可以看到返回信息： { message: "Hello world!" } 
- // 现在你可以去使用其他应用API来打造你自己的项目了!
-            </pre
-          >
-          <p>
-            3. 点击控制台侧边栏已安装的相关应用前往应用数据页查询或处理数据。
-          </p>
-        </div>
-        <main class="apphub">
-          <!-- 应用市场 -->
-          <h1 class="text-center">应用市场 AppHub</h1>
-          <div class="apphub-title">
-            <p class="text-center">
-              用户可发布公开自定义应用，AppHub中丰富的BaaS应用能满足业务中大部分常见需
-            </p>
-            <p class="text-center">
-              求。 应用会根据API自动生成统一格式的文档和示例，让前端使用心中有数
-            </p>
-          </div>
-          <div
-            class="pic"
-            style="
-              background-image: url(https://img1.mydrivers.com/img/20210423/735f9e59690542b8863cc12b38140d77.jpg);
-            "
-          ></div>
-          <!-- 示例应用 -->
-          <div class="text-center apphub-list">
-            <h1>示例</h1>
-            <p>
-              以下为部分应用展示，更多应用请查看：<a class="font-black" href=""
-                >应用市场AppHub</a
-              >
-            </p>
-          </div>
+      <!-- 主体 -->
+      <div class="main-bgimg">
+        <div class="main-container flex-space-between">
           <div>
-            <div class="apphub-item shadow">
-              <div>
-                <h2>用户系统</h2>
-                <p>
-                  用于用户注册、登录、查询、鉴权等涉及用户的场景，清林云的登录注册就是使用了该应用
-                </p>
+            <div class="item-zero">
+              <h2>董事长辞职</h2>
+              <h3>CHAIRMAN'S SPEECH</h3>
+            </div>
+            <span class="item-one">
+              <p class="one-p1">我谨代表人机有限捡垃圾公司全体人机，向多年来鼎力支持，帮助我公司发展的各界同仁和合作</p>
+              <p class="one-p2">伙伴表示最由衷的感谢!</p>
+            </span>
+            <span class="item-tow">
+              <p class="tow-p1">“做一项工程、吐一口唾沫、败百年口碑”是我们的祈愿，我们奉行“敲诈客户、自私自利、压榨员工、危害社会”</p>
+              <p class="tow-p2">的企业宗旨。诚挚希望与社会各界有识之士精诚合作、互惠互利、共谋发展、再铸辉煌!</p>
+            </span>
+            <div class="flex-y-center name-container">
+              <div class="item-name">
+                <p>Universe X CEO:</p>
               </div>
               <div>
-                <h2>用户系统</h2>
-                <p>
-                  用于用户注册、登录、查询、鉴权等涉及用户的场景，清林云的登录注册就是使用了该应用
-                </p>
-              </div>
-              <div>
-                <h2>用户系统</h2>
-                <p>
-                  用于用户注册、登录、查询、鉴权等涉及用户的场景，hedu云的登录注册就是使用了该应用
-                </p>
-              </div>
-              <div>
-                <h2>用户系统</h2>
-                <p>
-                  用于用户注册、登录、查询、鉴权等涉及用户的场景，hedu云的登录注册就是使用了该应用
-                </p>
-              </div>
-              <div>
-                <h2>用户系统</h2>
-                <p>
-                  用于用户注册、登录、查询、鉴权等涉及用户的场景，hedu云的登录注册就是使用了该应用
-                </p>
-              </div>
-              <div>
-                <h2>用户系统</h2>
-                <p>
-                  用于用户注册、登录、查询、鉴权等涉及用户的场景，hedu云的登录注册就是使用了该应用
-                </p>
-              </div>
-              <div>
-                <h2>用户系统</h2>
-                <p>
-                  用于用户注册、登录、查询、鉴权等涉及用户的场景，hedu云的登录注册就是使用了该应用
-                </p>
+                <img src="../img/江忍.png" />
               </div>
             </div>
           </div>
-        </main>
-        <!-- 低代码编辑自定义 -->
-        <footer class="footer">
-          <div class="text-center">
-            <h1>低代码编辑自定义 API</h1>
-            <div class="footer-item">
-              <p>
-                如果应用市场没有符合需求的现成应用，则可以编辑自定义应用。无需复杂的拖拽，
-              </p>
-              <p>
-                点选配置即可实现高度灵活的API逻辑，涵盖云数据库、条件判断等多种步骤
-              </p>
-            </div>
+          <!-- 圆圆的脑袋大大耳朵 -->
+          <div class="main-people-pic">
+            <img src="../img/dlam1.jpg" />
           </div>
-          <div
-            class="footer-img"
-            style="
-              background-image: url(https://pic4.zhimg.com/v2-f81d561e95403cf2af61ffd8ad172ffd_r.jpg);
-            "
-          ></div>
-          <!-- 应用数据协作 -->
-          <div class="app">
-            <div class="text-center">
-              <h1>应用数据协作 OneTable</h1>
-              <div class="footer-item">
-                <p>
-                  应用数据的
-                  All-in-One，告别数据孤岛，组织视图状态共享成倍提升团队效率
-                </p>
-              </div>
-            </div>
-            <div
-              class="footer-img"
-              style="
-                background-image: url(https://img1.mydrivers.com/img/20230423/a383560b93b442cba39542dc424f4240.png);
-              "
-            ></div>
-
-            <h2 class="text-center">适用客户</h2>
+        </div>
+      </div>
+    </main>
+    <!-- 腚 -->
+    <footer>
+      <div class="footer">
+        <div class="footer-bg">
+          <div class="footer-container"></div>
+          <div class="flex-space-between footer-container">
             <div class="flex">
-              <div
-                class="shadow footer-box bgwhite flex-y-center flex-x-center text-center"
-              >
-                <div>
-                  <h3>中小型企业</h3>
-                  <p>快速上线产品，验证市场</p>
-                  <p>需求匹配，降低研发投入成本</p>
-                </div>
+              <div class="footer-item">
+                <h2><a href="">关于我们</a></h2>
+                <ul class="ft-color-A7B7D2">
+                  <li><a href="">董事长辞职</a></li>
+                  <li><a href="">公司简介</a></li>
+                  <li><a href="">发展历程</a></li>
+                  <li><a href="">企业文化</a></li>
+                  <li><a href="">荣誉资质</a></li>
+                  <li><a href="">视屏集锦</a></li>
+                </ul>
               </div>
-              <div
-                class="shadow footer-box bgwhite flex-y-center flex-x-center text-center"
-              >
-                <div>
-                  <h3>中小型企业</h3>
-                  <p>快速上线产品，验证市场</p>
-                  <p>需求匹配，降低研发投入成本</p>
-                </div>
+              <div class="footer-item">
+                <h2>
+                  <a href="https://www.lafeng01.github.io">新闻资讯</a>
+                </h2>
+                <ul class="ft-color-A7B7D2">
+                  <li><a href="">公司动态</a></li>
+                  <li><a href="">行业动态</a></li>
+                </ul>
               </div>
-              <div
-                class="shadow footer-box bgwhite flex-y-center flex-x-center text-center"
-              >
-                <div>
-                  <h3>中小型企业</h3>
-                  <p>快速上线产品，验证市场</p>
-                  <p>需求匹配，降低研发投入成本</p>
-                </div>
+              <div class="footer-item">
+                <h2 class="ft-color-fff"><a href="https://www.lafeng01.github.io">主营业务</a></h2>
+                <ul class="ft-color-A7B7D2">
+                  <li><a href="">制冷工程</a></li>
+                  <li><a href="">供热工程</a></li>
+                  <li><a href="">智能化工程</a></li>
+                  <li><a href="">洁净净化工程</a></li>
+                  <li><a href="">压力管道工程</a></li>
+                  <li><a href="">装饰装修工程</a></li>
+                  <li><a href="">钢结构工程</a></li>
+                  <li><a href="">节能改造工程</a></li>
+                </ul>
               </div>
-              <div
-                class="shadow footer-box bgwhite flex-y-center flex-x-center text-center"
-              >
-                <div>
-                  <h3>中小型企业</h3>
-                  <p>快速上线产品，验证市场</p>
-                  <p>需求匹配，降低研发投入成本</p>
-                </div>
+              <div class="footer-item">
+                <h2 class="ft-color-fff"><a href="https://www.lafeng01.github.io">经典案例</a></h2>
+                <ul class="ft-color-A7B7D2">
+                  <li><a href="">经典案例</a></li>
+                </ul>
               </div>
-            </div>
-          </div>
-          <!-- 核心特性 -->
-          <div class="footer-card">
-            <h1 class="text-center">核心特性</h1>
-            <p class="text-center">降本、增效、安全。使用清林云前后对比</p>
-
-            <div class="content-between bgwhite shadow card-box">
-              <div class="card-list">
-                <p class="text-center">呜呜</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
+              <div class="footer-item">
+                <h2 class="ft-color-fff"><a href="https://www.lafeng01.github.io">产业板块</a></h2>
+                <ul class="ft-color-A7B7D2">
+                  <li><a href="">强生能源</a></li>
+                  <li><a href="">砺冰科技</a></li>
+                </ul>
               </div>
-              <h1>哈哈</h1>
-              <div class="card-list">
-                <p class="text-center">呜呜呜</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
+              <div class="footer-item">
+                <h2 class="ft-color-fff"><a href="https://www.lafeng01.github.io">人力资源</a></h2>
+                <ul class="ft-color-A7B7D2">
+                  <li><a href="">用人理念</a></li>
+                  <li><a href="">员工福利</a></li>
+                  <li><a href="">应聘窗口</a></li>
+                </ul>
               </div>
-            </div>
-            <div class="content-between bgwhite shadow card-box">
-              <div class="card-list">
-                <p class="text-center">呜呜</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-              </div>
-              <h1>哈哈</h1>
-              <div class="card-list">
-                <p class="text-center">呜呜呜</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
+              <div class="footer-item">
+                <h2 class="ft-color-fff"><a href="https://www.lafeng01.github.io">联系我们</a></h2>
+                <ul class="ft-color-A7B7D2">
+                  <li><a href="">联系我们</a></li>
+                </ul>
               </div>
             </div>
 
-            <div class="content-between bgwhite shadow card-box">
-              <div class="card-list">
-                <p class="text-center">呜呜</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-              </div>
-              <h1>哈哈</h1>
-              <div class="card-list bgwhite">
-                <p class="text-center">呜呜呜</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-                <p>哈哈哈哈哈哈哈哈哈哈哈啊啊啊啊啊啊啊啊啊啊啊啊</p>
-              </div>
+            <div class="img-work-container">
+              <a href="#header">
+                <img class="img-worker" src="../img/piaofu.png" alt="" height="162px" width="137px" />
+              </a>
             </div>
           </div>
-          <!-- 定价 -->
-          <h4 id="dingjia" class="text-center">定价</h4>
-          <p class="text-center">
-            三种模式，适合不同阶段的企业使用。定价详情请查看定价页面
-          </p>
-          <div class="flex">
-            <div
-              class="bgwhite box-item box-item1 flex-x-center flex-y-center shadow"
+          <!--备案 友情链接 矢量图标-->
+          <div class="flex-y-center link-container footer-container">
+            <span class="footer-link"
+              ><a class="ft-color-fff"> <span class="trademark">2020</span> ALL RESERVED.Powered By Vango 沪ICP备2020001号-1 （江南） 版权所有 <span class="trademark">Space X</span></a></span
             >
-              <div class="text-center">
-                <h4>交付服务</h4>
-                <p>BaaS应用与现有系统的结合</p>
-                <p>自定义BaaS应用的开发</p>
-                <p>专有云部署运维</p>
-                <p>私有云部署运维</p>
-                <p>BaaS系统培训</p>
+            <div class="flex-column">
+              <div class="flex-end footer-icon">
+                <!-- 微信 -->
+                <svg t="1710944206816" class="wechat-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10250" width="36" height="36">
+                  <path
+                    d="M512 67C266.265 67 67 266.262 67 512.007S266.236 956.985 512 957c245.735-0.015 445-199.262 445-445.008C957 266.247 757.765 67 512 67zM512 927.319c-229.019 0-415.333-186.298-415.333-415.313C96.667 282.978 282.981 96.666 512 96.695c229.019-0.015 415.334 186.282 415.334 415.312C927.334 741.021 741.019 927.319 512 927.319z"
+                    fill="#DCDDDD"
+                    p-id="10251"
+                  ></path>
+                  <path
+                    d="M468.92 380.074c0 14.34 11.646 25.957 25.987 25.957s25.929-11.617 25.929-25.957c0-14.341-11.588-25.958-25.929-25.958S468.92 365.733 468.92 380.074z"
+                    fill="#DCDDDD"
+                    p-id="10252"
+                  ></path>
+                  <path
+                    d="M337.013 380.074c0 14.34 11.618 25.957 25.929 25.957 14.341 0 25.987-11.617 25.987-25.957 0-14.341-11.646-25.958-25.987-25.958C348.631 354.116 337.013 365.733 337.013 380.074z"
+                    fill="#DCDDDD"
+                    p-id="10253"
+                  ></path>
+                  <path
+                    d="M593.584 365.168c7.938-0.941 16.021-1.521 24.22-1.666-30.594-64.706-103.341-110.364-188.082-110.364-112.235 0-203.553 80.047-203.553 178.446 0 56.537 30.391 109.351 81.728 143.015l-40.473 95.937 99.864-69.24c13.559 3.839 27.32 6.302 41.14 7.619-2.028-7.503-3.65-15.122-4.693-22.915-11.82-1.521-23.554-3.94-35.113-7.519l-5.157-1.594-45.746 31.709 18.165-43.051-8.373-4.939c-49.512-29.231-79.092-77.468-79.092-129.021 0-86.131 81.352-156.196 181.303-156.196C502.092 275.388 564.525 312.21 593.584 365.168z"
+                    fill="#DCDDDD"
+                    p-id="10254"
+                  ></path>
+                  <path
+                    d="M797.832 562.011c0-85.029-78.831-154.212-175.683-154.212-96.88 0-175.683 69.183-175.683 154.212s78.803 154.212 175.683 154.212c17.847 0 35.692-2.463 53.075-7.33l89.319 61.969-36.243-85.971C772.019 655.804 797.832 610.508 797.832 562.011zM708.745 670.912l-8.402 4.954 13.936 33.026-35.2-24.407-5.157 1.593c-16.919 5.244-34.331 7.895-51.771 7.895-84.597 0-153.433-59.201-153.433-131.962 0-72.76 68.836-131.962 153.433-131.962s153.433 59.202 153.433 131.962C775.582 605.525 750.579 646.243 708.745 670.912z"
+                    fill="#DCDDDD"
+                    p-id="10255"
+                  ></path>
+                  <path
+                    d="M566.408 495.696c-12.283 0-22.25 9.98-22.25 22.265 0 12.283 9.967 22.234 22.25 22.234 12.284 0 22.221-9.951 22.221-22.234C588.629 505.677 578.692 495.696 566.408 495.696z"
+                    fill="#DCDDDD"
+                    p-id="10256"
+                  ></path>
+                  <path
+                    d="M679.252 495.696c-12.284 0-22.25 9.98-22.25 22.265 0 12.283 9.966 22.234 22.25 22.234s22.221-9.951 22.221-22.234C701.473 505.677 691.536 495.696 679.252 495.696z"
+                    fill="#DCDDDD"
+                    p-id="10257"
+                  ></path>
+                </svg>
+                <!-- 抖音 -->
+                <svg t="1710943973395" class="tiktok-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4266" width="36" height="36">
+                  <path
+                    d="M512 63.488c-123.904 0-235.9296 50.176-317.2352 131.2768C113.664 276.0704 63.488 388.096 63.488 512s50.176 235.9296 131.2768 317.2352C276.0704 910.336 388.096 960.512 512 960.512s235.9296-50.176 317.2352-131.2768C910.336 747.9296 960.512 635.904 960.512 512s-50.176-235.9296-131.2768-317.2352C747.9296 113.664 635.904 63.488 512 63.488z m293.4784 741.9904C730.5216 880.64 626.688 927.1296 512 927.1296c-114.688 0-218.5216-46.4896-293.4784-121.6512C143.36 730.5216 96.8704 626.688 96.8704 512c0-114.688 46.4896-218.5216 121.6512-293.4784C293.4784 143.36 397.312 96.8704 512 96.8704c114.688 0 218.5216 46.4896 293.4784 121.6512C880.64 293.4784 927.1296 397.312 927.1296 512c0 114.688-46.4896 218.5216-121.6512 293.4784z"
+                    fill="#D4D5D5"
+                    p-id="4267"
+                  ></path>
+                  <path
+                    d="M723.1488 383.5904c-62.6688 0-113.4592-50.7904-113.4592-113.4592h-84.992v329.1136c0 38.2976-30.9248 69.2224-69.2224 69.2224-38.2976 0-69.2224-31.1296-69.2224-69.2224 0-38.2976 31.1296-69.2224 69.2224-69.2224 7.168 0 15.36 1.024 21.9136 3.072V446.464c-7.168-1.024-14.336-1.4336-21.9136-1.4336-85.1968 0-154.4192 69.0176-154.4192 154.4192 0 85.1968 69.0176 154.4192 154.4192 154.4192 85.1968 0 154.4192-69.0176 154.4192-154.4192v-174.2848c30.9248 25.1904 70.4512 40.3456 113.4592 40.3456v-81.92z"
+                    fill="#D4D5D5"
+                    p-id="4268"
+                  ></path>
+                </svg>
+                <!-- 微博 -->
+                <svg t="1710944152334" class="weibo-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8352" width="36" height="36">
+                  <path
+                    d="M512 67C266.265 67 67 266.262 67 512.008S266.236 956.985 512 957c245.735-0.015 445-199.262 445-445.008C957 266.248 757.765 67 512 67zM512 927.32c-229.019 0-415.333-186.298-415.333-415.313 0-229.03 186.314-415.341 415.333-415.313 229.019-0.014 415.334 186.283 415.334 415.313C927.334 741.022 741.019 927.32 512 927.32z"
+                    fill="#DCDDDD"
+                    p-id="8353"
+                  ></path>
+                  <path
+                    d="M663.477 502.766c-12.588 0-30.246-11.342-20.149-22.669 10.082-11.328 11.343-62.998-31.507-70.544-42.805-7.576-74.312 7.533-84.394 11.328-10.096 3.795-36.532 1.26-25.19-15.123 11.343-16.368 10.067-64.257-39.053-64.257-49.15 0-116.017 37.619-179.377 112.726-40.748 48.323-77.31 112.219-52.901 176.984 17.296 45.86 67.518 81.204 110.815 98.428 35.49 14.124 79.526 16.297 117.682 16.297 151.173 0 260.786-104.571 263.292-163.788C725.229 522.93 676.094 502.766 663.477 502.766zM463.386 702.056c-97.575 9.923-181.665-31.172-187.807-91.808-6.186-60.622 67.924-117.81 165.455-127.733 97.576-9.923 181.665 31.172 187.822 91.809C635.013 634.945 560.933 692.135 463.386 702.056z"
+                    fill="#DCDDDD"
+                    p-id="8354"
+                  ></path>
+                  <path
+                    d="M420.726 533.721c-51.076 10.69-85.943 50.729-77.831 89.463 8.083 38.748 56.03 61.505 107.121 50.844 51.105-10.676 85.929-50.728 77.846-89.463C519.778 545.831 471.802 523.06 420.726 533.721zM408.108 648.895c-21.019 0-38.039-12.762-38.039-28.521 0-15.774 17.021-28.536 38.039-28.536s38.04 12.762 38.04 28.536C446.148 636.133 429.127 648.895 408.108 648.895zM466.964 599.731c-8.865 0-16.021-7.171-16.021-16.007 0-8.821 7.156-15.977 16.021-15.977 8.808 0 15.978 7.155 15.978 15.977C482.941 592.561 475.771 599.731 466.964 599.731z"
+                    fill="#DCDDDD"
+                    p-id="8355"
+                  ></path>
+                  <path
+                    d="M706.268 472.969c4.766-10.299 7.171-21.308 7.171-32.723 0-43.036-35.013-78.077-78.063-78.077-7.722 0-15.384 1.145-22.772 3.375l5.853 19.164c5.476-1.666 11.183-2.506 16.92-2.506 32.013 0 58.044 26.045 58.044 58.043 0 8.488-1.782 16.673-5.331 24.321L706.268 472.969z"
+                    fill="#DCDDDD"
+                    p-id="8356"
+                  ></path>
+                  <path
+                    d="M634.983 278.068c-16.253 0-32.303 2.346-47.716 6.981l7.691 25.582c12.907-3.882 26.379-5.852 40.024-5.852 76.817 0 139.28 62.476 139.28 139.277 0 16.948-2.999 33.49-8.909 49.193l24.974 9.415c7.069-18.715 10.646-38.43 10.646-58.608C800.975 352.537 726.504 278.068 634.983 278.068z"
+                    fill="#DCDDDD"
+                    p-id="8357"
+                  ></path>
+                </svg>
+              </div>
+              <div class="footer-input felx-space-between flex-y-center">
+                <p id="link" class="ft-color-cdd6e5">强生友情链接</p>
+                <svg t="1710944522035" class="icon-bottom" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="22269" width="22" height="22">
+                  <path
+                    d="M175.9792 326.9552c-9.3728-9.3728-24.5696-9.3728-33.9424 0-9.3712 9.3728-9.3712 24.568 0 33.9408l324.2432 324.2432c25.248 25.248 66.184 25.248 91.4304 0L881.9536 360.896c9.3728-9.3728 9.3728-24.568 0-33.9408-9.3728-9.3728-24.568-9.3728-33.9408 0L523.7696 651.1968c-6.5024 6.504-17.0448 6.504-23.5488 0L175.9792 326.9552z"
+                    fill="#979797"
+                    p-id="22270"
+                  ></path>
+                </svg>
               </div>
             </div>
-            <div
-              class="bgwhite box-item box-item2 flex-x-center flex-y-center shadow"
-            >
-              <div class="text-center">
-                <h4>交付服务</h4>
-                <p>BaaS应用与现有系统的结合</p>
-                <p>自定义BaaS应用的开发</p>
-                <p>专有云部署运维</p>
-                <p>私有云部署运维</p>
-                <p>BaaS系统培训</p>
-              </div>
-            </div>
-            <div class="bgwhite box-item flex-x-center flex-y-center shadow">
-              <div class="text-center">
-                <h4>交付服务</h4>
-                <p>BaaS应用与现有系统的结合</p>
-                <p>自定义BaaS应用的开发</p>
-                <p>专有云部署运维</p>
-                <p>私有云部署运维</p>
-                <p>BaaS系统培训</p>
-              </div>
-            </div>
           </div>
-          <!-- 企业服务 -->
-          <h4 id="dingjia" class="text-center">企业服务</h4>
-          <p class="text-center">
-            三种模式，适合不同阶段的企业使用。定价详情请查看定价页面
-          </p>
-          <div class="flex">
-            <div
-              class="bgwhite box-item box-item1 flex-x-center flex-y-center shadow"
-            >
-              <div class="text-center">
-                <h4>交付服务</h4>
-                <p>BaaS应用与现有系统的结合</p>
-                <p>自定义BaaS应用的开发</p>
-                <p>专有云部署运维</p>
-                <p>私有云部署运维</p>
-                <p>BaaS系统培训</p>
-              </div>
-            </div>
-            <div
-              class="bgwhite box-item box-item2 flex-x-center flex-y-center shadow"
-            >
-              <div class="text-center">
-                <h4>交付服务</h4>
-                <p>BaaS应用与现有系统的结合</p>
-                <p>自定义BaaS应用的开发</p>
-                <p>专有云部署运维</p>
-                <p>私有云部署运维</p>
-                <p>BaaS系统培训</p>
-              </div>
-            </div>
-            <div class="bgwhite box-item flex-x-center flex-y-center shadow">
-              <div class="text-center">
-                <h4>交付服务</h4>
-                <p>BaaS应用与现有系统的结合</p>
-                <p>自定义BaaS应用的开发</p>
-                <p>专有云部署运维</p>
-                <p>私有云部署运维</p>
-                <p>BaaS系统培训</p>
-              </div>
-            </div>
-          </div>
-        </footer>
-        <!-- 合作伙伴们 -->
-        <div class="friend text-center">
-          <h1>合作伙伴</h1>
-          <p>
-            以下为部分客户及供应商，欢迎各垂直行业企业和我们一起打造服务生态。
-          </p>
-          <div class="content-around friend-logo">
-            <img src="https://www.baasapi.com/image/clients/Alibaba.svg" />
-            <img src="https://www.baasapi.com/image/clients/Baidu.svg" />
-            <img src="https://www.baasapi.com/image/clients/apple.svg" />
-            <img src="https://www.baasapi.com/image/clients/tencentgroup.svg" />
-          </div>
-          <div class="content-around friend-logo2">
-            <img src="https://www.baasapi.com/image/clients/Chinamobile.svg" />
-            <img src="https://www.baasapi.com/image/clients/Google.svg" />
-            <img src="https://www.baasapi.com/image/clients/Amazon.svg" />
-            <img src="https://www.baasapi.com/image/clients/hp.svg" />
-          </div>
-        </div>
-
-        <!-- 关于 -->
-        <div class="about">
-          <h1 class="text-center">关于hedu X</h1>
-          <div class="bgwhite">
-            <div class="about-box shadow">
-              <p>
-                Hedu
-                云是一家专业IT咨询公司，为企业提供产品技术咨询、数字化转型等服务。作为合作伙伴，项目案例和微博、高德等共同登上阿里云官方文档。
-              </p>
-              <p>
-                我们在多年的积累中沉淀软件应用的通用逻辑，打造出BaaS (Backend as
-                a Service) 云平台，致力于加速世界数字化。
-              </p>
-              <p>
-                hedu云BaaS 当前版本提供通用应用 API
-                服务和自定义应用能力，后续版本将推出数据分析、AI
-                智能应用、前端编辑、自动化引擎等更多能力。
-              </p>
-              <p>
-                除了BaaS平台的技术服务，我们同样也提供如技术顾问、项目落地等其他类型的咨询服务，详见咨询服务说明。
-              </p>
-              <p>布克云是一家长期主义企业，我们的使命是加速世界数字化。</p>
-              <p>如您有任何问题可在文档-联系我们页面添加团队成员咨询：</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- 开始使用 -->
-        <div class="start">
-          <h1 class="text-center">开始使用</h1>
-          <p class="flex-x-center">
-            <a>查看文档</a>
-            <a id="lianxi" class="font-white">联系我们</a>
-          </p>
-        </div>
-        <!-- 灰色背景 -->
-      </div>
-      <!-- 底部 -->
-      <div class="below">
-        <div class="container">
-          <div class="flex content-around">
-            <h3>文档</h3>
-            <h3>联系</h3>
-            <h3>动态</h3>
-            <h3>更多</h3>
-          </div>
-          <div class="flex content-around">
-            <a href="https://www.mps.gov.cn/" class="font-gray">快速开始</a>
-            <a href="https://www.mps.gov.cn/" class="font-gray">联系我们</a>
-            <a href="https://www.mps.gov.cn/" class="font-gray">博客</a>
-            <a href="https://www.mps.gov.cn/" class="font-gray">咨询服务</a>
-          </div>
-          <div class="flex content-around">
-            <a href="https://www.mps.gov.cn/" class="font-gray">详细介绍</a>
-            <a href="https://www.mps.gov.cn/" class="font-gray">信息举报</a>
-            <a href="https://www.mps.gov.cn/" class="font-gray">知识</a>
-            <a href="https://www.mps.gov.cn/" class="font-gray">关于我们</a>
-          </div>
-          <div class="flex-x-center below-img">
-            <img src="https://www.baasapi.com/image/clients/apple.svg" />
-          </div>
-          <p class="below-link flex-x-center">
-            <a>Copyright © 2022 www.hedux.com</a>
-          </p>
-          <p class="font-gray flex-x-center">
-            <a href="https://www.mps.gov.cn/"> 沪ICP备111号-5 </a>
-          </p>
-          <p class="font-gray flex-x-center">
-            <a href="https://www.mps.gov.cn/">沪公网安备01号 </a>
-          </p>
         </div>
       </div>
-      <!-- 限宽 -->
-    </div>
+    </footer>
   </body>
+  <div id="bg-menu">
+    <nav class="bg-menu-nav flex-x-center">
+      <ul class="bg-menu-list">
+        <li><a>网站首页</a></li>
+        <li><a>关于我们</a></li>
+        <li><a>太空探索</a></li>
+        <li><a>科学研究</a></li>
+        <li><a>经典案例</a></li>
+        <li><a>技术创新</a></li>
+        <li><a>宇宙生活</a></li>
+        <li><a>联系我们</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <script>
+    document.getElementById("icon-header").onclick = function () {
+      document.getElementById("bg-menu").style.display = "block";
+      document.getElementById(icon - header).style.display = "none";
+    };
+    document.getElementById("bg-menu").onclick = function () {
+      document.getElementById("bg-menu").style.display = "none";
+    };
+  </script>
 </html>
