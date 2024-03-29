@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid green; */
+  /* border: 1px solid blueviolet; */
 }
 ul {
   list-style: none;
@@ -55,7 +55,6 @@ a {
   display: flex;
   flex-direction: column-reverse;
 }
-
 /* 边框 */
 .border-bottom {
   border-bottom: 1px solid #ccc;
@@ -63,7 +62,6 @@ a {
 .border-right {
   border-right: 1px solid #ccc;
 }
-/* 商标  */
 /* ® */
 .trademark::after {
   content: "\00AE";
@@ -80,4 +78,15 @@ a {
 }
 .ft-color-cdd6e5 {
   color: #cdd6e5;
+}
+/* 容器 */
+.container-92 {
+  width: 92%;
+  margin: 0 auto;
+  padding: 0;
+}
+.container-80 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
 }
