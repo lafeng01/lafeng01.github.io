@@ -44,35 +44,7 @@ document.getElementById("flexRow").onmouseover = function (event) {
     console.log("在标签外部");
   }
 };
-// 图片旋转
-// window.onload = function () {
-//   const img = document.getElementById("rotating-image");
 
-//   let rotation = 0;
-//   function rotateImage() {
-//     rotation += 1;
-//     img.style.transform = `rotate(${rotation}deg)`;
-//     requestAnimationFrame(rotateImage);
-//   }
-
-//   rotateImage();
-// };
-
-// 变图片
-// let currentImageIndex = 1; // 当前显示的图片索引
-
-// function changeImage(direction) {
-//   const images = ["/img/banner01.jpg", "/img/火箭 (1).png"]; // 图片路径数组
-
-//   if (direction === "left") {
-//     currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-//   } else if (direction === "right") {
-//     currentImageIndex = (currentImageIndex + 1) % images.length;
-//   }
-
-//   const slideshowImage = document.querySelector("home-header-img");
-//   slideshowImage.src = images[currentImageIndex];
-// }
 function changeImage() {
   element = document.getElementById("icon-right");
   if (element.src.match("bulbon")) {
